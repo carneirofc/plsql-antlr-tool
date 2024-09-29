@@ -1,0 +1,4 @@
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/antlr/grammars-v4/refs/heads/master/sql/plsql/PlSqlLexer.g4				-OutFile PlSqlLexer.g4
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/antlr/grammars-v4/refs/heads/master/sql/plsql/PlSqlParser.g4				-OutFile PlSqlParser.g4
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/antlr/grammars-v4/refs/heads/master/sql/plsql/CSharp/PlSqlLexerBase.cs	    -OutFile ..\Cfc.DevOps.PlSql.Antlr\Generated\PlSqlLexerBase.cs
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/antlr/grammars-v4/refs/heads/master/sql/plsql/CSharp/PlSqlParserBase.cs	-OutFile ..\Cfc.DevOps.PlSql.Antlr\Generated\PlSqlParserBase.cs
